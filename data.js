@@ -34,12 +34,19 @@ const proyectos = [
         imagen: "valentine-card.png",
         tecnologias: ["HTML", "CSS"]
     },
+    {
+        titulo: "Fokus",
+        descripcion: "Una app web para ayudar en la concentración",
+        link: "https://ehr27.github.io/Fokus/",
+        imagen: "fokus.png",
+        tecnologias: ["HTML", "CSS", "JavaScript"]
+    }
 ];
 
 const informacionPersonal ={
     nombre: "Edward",
     subtitulo: "Desarrolador web",
-    imagen: "img/me.jpg",
+    imagen: "img/me_old-removed.png",
     otros: [
         ["Nacionalidad", "Dominicano"],
         [
@@ -51,7 +58,7 @@ const informacionPersonal ={
         ["Español", "Nativo"], ["Inglés", "Intermedio"]
     ],
     tecnologias: [
-        ["HTML", 5], ["CSS", 5], ["JavaScript", 4]
+        ["HTML", 6], ["CSS", 6], ["JavaScript", 5]
     ],
     redes: [
         ["github", "https://github.com/EHR27"],

@@ -130,6 +130,7 @@ aside img {
     max-height: 200px;
     display: block;
     margin: auto;
+    border-radius: 50%;
 }
 
 .presentacion div, .idioma div {
