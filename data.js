@@ -40,6 +40,13 @@ const proyectos = [
         link: "https://ehr27.github.io/Fokus/",
         imagen: "fokus.png",
         tecnologias: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        titulo: "Conversor de Temperaturas",
+        descripcion: "Este programa convierte temperaturas entre Celsius y Fahrenheit",
+        link: "https://ehr27.github.io/Temperature-Converter/",
+        imagen: "temp_converter.png",
+        tecnologias: ["HTML", "CSS", "JavaScript"]
     }
 ];
 
