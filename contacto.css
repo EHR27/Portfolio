@@ -57,26 +57,47 @@ input::placeholder{
     color: #FFFFFF;
     border: 0;
     border-radius: 25px;
-    background-color: blue;
+    background-color: #3D64A9;
     box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
     cursor: pointer;
 }
 
 .btn:hover{
+    transition: all ease 0.5s;
     background-color: #283629;
 }
 
-@media(max-width: 991px){
-    body{
+a{
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el relleno según sea necesario */
+    background-color: #283629; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 25px; /* Añade esquinas redondeadas al botón */
+    text-align: center; /* Centra el texto dentro del botón */
+    text-decoration: none; /* Elimina la decoración de texto */
+    cursor: pointer; /* Cambia el cursor a un puntero al pasar el ratón */
+}
+
+a:hover{
+    transition: all ease-out 0.2s;
+    background-color: #45a049;
+}
+
+@media (max-width: 420px) {
+    body {
         padding: 30px;
     }
 
-    form{
+    form {
         padding: 50px;
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
     }
 
-    input{
+    input {
         padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
     }
 }

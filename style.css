@@ -29,6 +29,11 @@ header {
     justify-content: space-between;
 }
 
+a:hover{
+    background-color: #90946E;
+    transition: all ease 0.5s;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: var(--color-text-titulos);
 }
@@ -188,21 +193,26 @@ main {
 }
 
 /* Reglas de medios para hacer responsive */
-@media (max-width: 650px) {
+@media (max-width: 420px) {
     body {
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-areas:
             "header"
             "aside"
             "main"
             "footer";
+        justify-content: center; /* Centra horizontalmente */
+        align-items: center; /* Centra verticalmente */
+        font-size: 14px; /* Reducir el tamaño de la fuente */
     }
 
     header img {
-        display: none;
+        max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+        height: auto; /* Permite que la imagen conserve su relación de aspecto */
     }
 
     aside, main {
-        margin: 0 20px;
+        margin: 10px; /* Ajusta los márgenes */
     }
 }
